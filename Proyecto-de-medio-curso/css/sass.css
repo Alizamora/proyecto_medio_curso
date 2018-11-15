@@ -5,6 +5,11 @@ body {
   background-size: cover;
   background-position: center;
 }
+body .clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
 body .container {
   width: 80%;
   margin: 0 auto;
@@ -12,7 +17,19 @@ body .container {
 }
 body .container h1 {
   text-align: center;
-  margin-top: 200px;
+  margin-top: 150px;
+  color: gray;
+}
+body .container #search {
+  width: 60%;
+  height: 5%;
+  margin-bottom: 5%;
+}
+body .container .examples {
+  float: left;
+}
+body .container .synonym {
+  float: right;
 }
 
 /*# sourceMappingURL=sass.css.map */

@@ -5,6 +5,14 @@ body{
     background-image: url('https://images.pexels.com/photos/954198/pexels-photo-954198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
     background-position: center;
+
+    .clearfix{
+        &::after{
+            content: '';
+            clear: both;
+            display: block;
+        }
+    }
     
     .container{
         width: 80%;
@@ -14,7 +22,24 @@ body{
 
         h1{
             text-align: center;
-            margin-top: 200px;
+            margin-top: 150px;
+            color: gray;
+        }
+
+        #search{
+            width: 60%;
+            height: 5%;
+            margin-bottom: 5%;
+
+        }
+
+        .examples{
+            float: left;
+        }
+        
+        .synonym{
+            float: right;
         }
     }
+
 }

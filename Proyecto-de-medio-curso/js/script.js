@@ -1,3 +1,7 @@
+let search= document
+
+
+
 function hiRequest(event){
     let response = event.target.response;
     console.clear();

@@ -15,6 +15,14 @@ body .container {
   margin: 0 auto;
   text-align: center;
 }
+body .container button {
+  border-radius: 6px;
+  background-color: gray;
+  border: 1px solid gray;
+  color: white;
+  width: 150px;
+  height: 25px;
+}
 body .container h1 {
   text-align: center;
   margin-top: 150px;
@@ -24,6 +32,7 @@ body .container #search {
   width: 60%;
   height: 5%;
   margin-bottom: 5%;
+  border-radius: 8px;
 }
 body .container .examples {
   float: left;

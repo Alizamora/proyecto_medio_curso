@@ -23,6 +23,10 @@ body .container button {
   width: 150px;
   height: 25px;
 }
+body .container button:hover {
+  background-color: #d3cfcf;
+  color: gray;
+}
 body .container h1 {
   text-align: center;
   margin-top: 150px;
